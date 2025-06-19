@@ -46,6 +46,7 @@ const Home = () => {
               onChange={onTitleChange}
               type="text"
               placeholder="Enter title"
+              className="p-2"
             />
             <textarea
               value={text}
